@@ -1,3 +1,7 @@
+clone the project then run : mvn clean package
+
+if test cases fails then mvn clean package -Dmaven.test.skip=true
+
 # OneLogin's SAML Java Toolkit
 
 [![Build Status](https://travis-ci.org/onelogin/java-saml.svg?branch=master)](https://travis-ci.org/onelogin/java-saml) [![Coverage Status](https://coveralls.io/repos/github/onelogin/java-saml/badge.svg?branch=master)](https://coveralls.io/github/onelogin/java-saml?branch=master)
